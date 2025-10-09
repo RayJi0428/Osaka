@@ -93,25 +93,47 @@ body {
    ======================================== */
 .header {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
     background: var(--bg-secondary);
+    background-image: url('../images/osakakyoutonara54ss22.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 16px;
     box-shadow: var(--shadow);
     margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%);
+    z-index: 1;
+}
+
+.header h1,
+.header .subtitle {
+    position: relative;
+    z-index: 2;
 }
 
 .header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
 }
 
 .subtitle {
-    color: var(--text-secondary);
+    color: #ffffff;
     font-size: 1.1rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* ========================================
@@ -478,16 +500,16 @@ body {
     }
     
     .header {
-        padding: 50px 40px;
+        padding: 80px 40px;
         margin-bottom: 40px;
     }
     
     .header h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     
     .subtitle {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     
     .tabs {
@@ -585,12 +607,12 @@ body {
     }
     
     .header {
-        padding: 40px 30px;
+        padding: 60px 30px;
         margin-bottom: 30px;
     }
     
     .header h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     
     .tabs {
@@ -634,8 +656,12 @@ body {
 
 /* 平板 (768px - 1024px) */
 @media (max-width: 1024px) {
+    .header {
+        padding: 50px 20px;
+    }
+    
     .header h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     
     .container {
@@ -645,8 +671,12 @@ body {
 
 /* 手機 (< 768px) */
 @media (max-width: 768px) {
+    .header {
+        padding: 40px 15px;
+    }
+    
     .header h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     
     .subtitle {
@@ -724,11 +754,11 @@ body {
 /* 小手機 (< 480px) */
 @media (max-width: 480px) {
     .header {
-        padding: 30px 15px;
+        padding: 35px 15px;
     }
     
     .header h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     
     .tab-btn {

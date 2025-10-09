@@ -53,6 +53,7 @@ const itineraryData = {
             location: "伏見稻荷大社",
             address: "京都府京都市伏見区深草藪之内町68",
             description: "走千本鳥居、參道茶屋品嚐抹茶與糰子",
+            image: "images/index_mainvisual.jpg",
             notes: [
                 "千本鳥居超壯觀，建議走到山頂",
                 "參道有很多小吃攤位",
