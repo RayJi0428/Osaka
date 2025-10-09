@@ -7,7 +7,7 @@ const itineraryData = {
         {
             time: "06:55",
             title: "🛫 小港機場出發",
-            description: "長榮航空 IT284",
+            description: "台灣虎航 IT284",
             type: "transport"
         },
         {
@@ -18,10 +18,17 @@ const itineraryData = {
             type: "arrival"
         },
         {
-            time: "12:30 - 14:00",
-            title: "🚄 HARUKA 特急列車",
+            time: "12:44 - 14:00",
+            title: "🚄 HARUKA 特急列車 No.24",
             description: "從關西機場到京都站",
-            notes: ["車程約 75 分鐘", "建議事先購買 ICOCA & HARUKA 套票"],
+            notes: [
+                "🎫 已購買 HARUKA 套票",
+                "🚄 列車編號：No.24",
+                "🕐 發車時間：12:44",
+                "🚃 車廂 9 號 - 座位 8C、8D",
+                "⏱️ 車程約 75 分鐘"
+            ],
+            image: "images/21_73.jpg",
             type: "transport"
         },
         {
@@ -30,6 +37,13 @@ const itineraryData = {
             location: "Hotel Keihan Kyoto Ekiminami",
             address: "京都府京都市南区東九条上殿田町45",
             description: "放行李、稍作休息",
+            website: "https://kyotoekiminami.hotelkeihan.co.jp/",
+            image: "images/img_mainimg01-pc.jpg",
+            notes: [
+                "距離 JR 京都站八条口步行 1 分鐘",
+                "可在入住前/退房後免費寄放行李",
+                "提供免費高速網路"
+            ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.3792947891394!2d135.75936!3d34.98598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108ae7b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sHotel%20Keihan%20Kyoto%20Ekiminami!5e0!3m2!1szh-TW!2stw!4v1234567890",
             type: "hotel"
         },
@@ -428,6 +442,20 @@ function createTimelineItem(item) {
     // 地址
     if (item.address) {
         html += `<p class="item-address">🗺️ ${item.address}</p>`;
+    }
+    
+    // 網址
+    if (item.website) {
+        html += `<p class="item-website">🔗 <a href="${item.website}" target="_blank" rel="noopener noreferrer">官方網站</a></p>`;
+    }
+    
+    // 圖片
+    if (item.image) {
+        html += `
+            <div class="item-image">
+                <img src="${item.image}" alt="${item.title}" loading="lazy">
+            </div>
+        `;
     }
     
     // 備註

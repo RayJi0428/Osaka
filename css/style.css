@@ -301,6 +301,42 @@ body {
     gap: 5px;
 }
 
+/* 網址連結 */
+.item-website {
+    font-size: 0.9rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.item-website a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.item-website a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
+/* 圖片 */
+.item-image {
+    margin: 15px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.item-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
 /* Google Map */
 .item-map {
     margin-top: 15px;
