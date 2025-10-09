@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="京都大阪 5天4夜旅遊行程規劃">
+    <title>京都大阪之旅 🇯🇵 | 2024.10.24-10.28</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 主題切換按鈕 -->
+    <button id="themeToggle" class="theme-toggle" aria-label="切換深淺色主題">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- 主容器 -->
+    <div class="container">
+        <!-- 標題區 -->
+        <header class="header">
+            <h1>🇯🇵 京都大阪之旅</h1>
+            <p class="subtitle">2024.10.24 - 10.28 | 5天4夜</p>
+        </header>
+
+        <!-- 分頁導覽列 -->
+        <nav class="tabs">
+            <button class="tab-btn active" data-day="1">
+                <span class="tab-date">10/24 (五)</span>
+                <span class="tab-title">Day 1</span>
+            </button>
+            <button class="tab-btn" data-day="2">
+                <span class="tab-date">10/25 (六)</span>
+                <span class="tab-title">Day 2</span>
+            </button>
+            <button class="tab-btn" data-day="3">
+                <span class="tab-date">10/26 (日)</span>
+                <span class="tab-title">Day 3</span>
+            </button>
+            <button class="tab-btn" data-day="4">
+                <span class="tab-date">10/27 (一)</span>
+                <span class="tab-title">Day 4</span>
+            </button>
+            <button class="tab-btn" data-day="5">
+                <span class="tab-date">10/28 (二)</span>
+                <span class="tab-title">Day 5</span>
+            </button>
+        </nav>
+
+        <!-- 行程內容區 -->
+        <main class="content">
+            <!-- Day 1 -->
+            <section id="day-1" class="day-content active">
+                <div class="day-header">
+                    <h2>📅 Day 1 - 10/24（五）</h2>
+                    <p class="day-summary">台灣出發 ✈️ → 京都 🏯 → 伏見稻荷 ⛩️ → 鰻魚飯 🐟</p>
+                </div>
+                <div id="day-1-items" class="timeline"></div>
+            </section>
+
+            <!-- Day 2 -->
+            <section id="day-2" class="day-content">
+                <div class="day-header">
+                    <h2>📅 Day 2 - 10/25（六）</h2>
+                    <p class="day-summary">飯店早餐🍴 → 和服攝影 👘 → 清水寺散策 🏯 → 岡崎神社 🐰 → 大阪 🏙️</p>
+                </div>
+                <div id="day-2-items" class="timeline"></div>
+            </section>
+
+            <!-- Day 3 -->
+            <section id="day-3" class="day-content">
+                <div class="day-header">
+                    <h2>📅 Day 3 - 10/26（日）</h2>
+                    <p class="day-summary">大阪美食購物日 🛍️☕ → 黑門市場🐟 → OSA 咖啡 → 心齋橋👗 → 夜景🌃</p>
+                </div>
+                <div id="day-3-items" class="timeline"></div>
+            </section>
+
+            <!-- Day 4 -->
+            <section id="day-4" class="day-content">
+                <div class="day-header">
+                    <h2>📅 Day 4 - 10/27（一）</h2>
+                    <p class="day-summary">大阪環球影城 🎢🎃✨ 萬聖節主題日 👻</p>
+                </div>
+                <div id="day-4-items" class="timeline"></div>
+            </section>
+
+            <!-- Day 5 -->
+            <section id="day-5" class="day-content">
+                <div class="day-header">
+                    <h2>📅 Day 5 - 10/28（二）</h2>
+                    <p class="day-summary">返台 ✈️</p>
+                </div>
+                <div id="day-5-items" class="timeline"></div>
+            </section>
+        </main>
+
+        <!-- 頁腳 -->
+        <footer class="footer">
+            <p>🗾 祝旅途愉快！Have a great trip! 🧳</p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
