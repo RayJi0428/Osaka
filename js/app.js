@@ -57,10 +57,11 @@ const itineraryData = {
             notes: [
                 "千本鳥居超壯觀，建議走到山頂",
                 "參道有很多小吃攤位",
-                "拍照時段：下午光線較好"
+                "拍照時段：下午光線較好",
+                "",
+                "📍 備案景點：<a href='https://maps.app.goo.gl/aK5hZW6evXDEUh9Y8' target='_blank' style='color: #e74c3c; font-weight: bold; text-decoration: underline;'>錦市場</a>（京都廚房，美食街）"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.5574619723607!2d135.77661267620738!3d34.96769886883938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f153d2e6d21%3A0x7b1aca1c753ae2e9!2z5LyP6KaL56i76I235aSn56S-!5e0!3m2!1szh-TW!2stw!4v1760028077626!5m2!1szh-TW!2stw",
-            tags: ["景點", "神社", "必拍"],
             type: "sightseeing"
         },
         {
@@ -80,7 +81,6 @@ const itineraryData = {
                 "總時間約 25-30 分鐘，車資約 ¥210-270"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.9493006530606!2d135.76698340161755!3d35.00797423828839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001089397ad4159%3A0x7f3486e9783a343b!2z5Lqs5qW144GL44Gt44KI!5e0!3m2!1szh-TW!2stw!4v1760028130138!5m2!1szh-TW!2stw",
-            tags: ["美食", "鰻魚", "晚餐"],
             type: "dining"
         },
         {
@@ -111,7 +111,6 @@ const itineraryData = {
                 "記得帶相機拍照！"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.2299577896706!2d135.77386877575753!3d35.00094827281446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109c6e038c56b%3A0xeb02f06e50a4981!2z55KD5YWJ5ZKM5pyN5Ye656efIOelh-WckuW6lw!5e0!3m2!1szh-TW!2stw!4v1760028388009!5m2!1szh-TW!2stw",
-            tags: ["體驗", "和服", "攝影"],
             type: "activity"
         },
         {
@@ -130,7 +129,6 @@ const itineraryData = {
                 "🍗 喜楽庵岡本：超juicy炸雞"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.480859080648!2d135.78208607575735!3d34.99466617281661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108d385dcfb07%3A0x62af658650c434ba!2z5riF5rC05a-6!5e0!3m2!1szh-TW!2stw!4v1760028489412!5m2!1szh-TW!2stw",
-            tags: ["景點", "散策", "美食"],
             type: "sightseeing"
         },
         {
@@ -145,7 +143,6 @@ const itineraryData = {
                 "記得摸摸黑兔子求好運"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.562345678901!2d135.78521897649896!3d35.015498972955567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f56d3b3d3b3%3A0x3d3d3d3d3d3d3d3d!2z5bKh5bSO56We56S-!5e0!3m2!1szh-TW!2stw!4v1728473200000!5m2!1szh-TW!2stw",
-            tags: ["景點", "神社", "可愛"],
             type: "sightseeing"
         },
         {
@@ -178,7 +175,6 @@ const itineraryData = {
                 "必吃：串炸、章魚燒、大阪燒",
                 "可以順便欣賞固力果跑跑人招牌夜景"
             ],
-            tags: ["美食", "居酒屋", "晚餐"],
             type: "dining"
         }
     ],
@@ -203,7 +199,6 @@ const itineraryData = {
                 "建議早點去人比較少"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5678901234!2d135.50351897648456!3d34.66003457241567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e86d3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z6buS6ZaA5biC5aC0!5e0!3m2!1szh-TW!2stw!4v1728473400000!5m2!1szh-TW!2stw",
-            tags: ["美食", "市場", "午餐"],
             type: "dining"
         },
         {
@@ -218,7 +213,6 @@ const itineraryData = {
                 "適合拍照打卡"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3456789012!2d135.50001897648512!3d34.66201457241345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7e3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sOSA%20Coffee%20Minami!5e0!3m2!1szh-TW!2stw!4v1728473500000!5m2!1szh-TW!2stw",
-            tags: ["咖啡", "網美店", "下午茶"],
             type: "cafe"
         },
         {
@@ -235,7 +229,6 @@ const itineraryData = {
                 "💊 藥妝店比價：松本清、大國藥妝、唐吉軻德"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1234567890!2d135.49903907648578!3d34.67150457240123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e715d3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5b-D6Zm45qmL!5e0!3m2!1szh-TW!2stw!4v1728473600000!5m2!1szh-TW!2stw",
-            tags: ["購物", "美食", "景點"],
             type: "shopping"
         },
         {
@@ -251,7 +244,6 @@ const itineraryData = {
                 "建議事先網路購票"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.8901234567!2d135.51202907648345!3d34.64580457242890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0ab3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z6Zi_5YCN6YeO6Zec5paw5pyb5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1728473700000!5m2!1szh-TW!2stw",
-            tags: ["夜景", "展望台", "景點"],
             type: "sightseeing"
         },
         {
@@ -297,7 +289,6 @@ const itineraryData = {
                 "- 記得充好行動電源"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.5678901234!2d135.43002907648890!3d34.66550457245678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d56d3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z5pel5pys55Kw55CD5b2x5Z-O!5e0!3m2!1szh-TW!2stw!4v1728473800000!5m2!1szh-TW!2stw",
-            tags: ["遊樂園", "環球影城", "萬聖節"],
             type: "activity"
         },
         {
@@ -495,15 +486,6 @@ function createTimelineItem(item) {
                 </iframe>
             </div>
         `;
-    }
-    
-    // 標籤
-    if (item.tags && item.tags.length > 0) {
-        html += `<div class="item-tags">`;
-        item.tags.forEach(tag => {
-            html += `<span class="tag">${tag}</span>`;
-        });
-        html += `</div>`;
     }
     
     html += `

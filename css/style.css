@@ -461,23 +461,6 @@ body {
     display: block;
 }
 
-/* 標籤 */
-.item-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 12px;
-}
-
-.tag {
-    display: inline-block;
-    padding: 4px 12px;
-    background: var(--accent-color);
-    color: white;
-    border-radius: 16px;
-    font-size: 0.85rem;
-}
-
 /* ========================================
    頁腳
    ======================================== */
