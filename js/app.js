@@ -14,7 +14,7 @@ const itineraryData = {
             time: "10:55",
             title: "✈️ 抵達關西機場",
             location: "關西國際機場",
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3563042906467!2d135.2306!3d34.4347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000bb6e3ee0a7c1%3A0xb1c00f8b3b3c3c3c!2z6Zec6KW_5ZyL6Zqb5qmf5aC0!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3543969437087!2d135.23406707648098!3d34.43199938564929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000b91323cdfaf7%3A0xf171a79f8d908f88!2z6Zec6KW_5ZyL6Zqb5qmf5aC0!5e0!3m2!1szh-TW!2stw!4v1728472000000!5m2!1szh-TW!2stw",
             type: "arrival"
         },
         {
@@ -44,7 +44,7 @@ const itineraryData = {
                 "可在入住前/退房後免費寄放行李",
                 "提供免費高速網路"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.3792947891394!2d135.75936!3d34.98598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108ae7b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2sHotel%20Keihan%20Kyoto%20Ekiminami!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.9119136626596!2d135.75515147575683!3d34.98387107282036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109b1e416fb6b%3A0x9c0ef85f412b327!2z5Lqs6Ziq5Lqs6YO96LuK56uZ5Y2X6aOv5bqX!5e0!3m2!1szh-TW!2stw!4v1760028010484!5m2!1szh-TW!2stw",
             type: "hotel"
         },
         {
@@ -58,7 +58,7 @@ const itineraryData = {
                 "參道有很多小吃攤位",
                 "拍照時段：下午光線較好"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.2645871234567!2d135.7726!3d34.9672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108c9f3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5LyP6KaL56aN6I236Kqz5aSn56S-!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.5574619723607!2d135.77661267620738!3d34.96769886883938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f153d2e6d21%3A0x7b1aca1c753ae2e9!2z5LyP6KaL56i76I235aSn56S-!5e0!3m2!1szh-TW!2stw!4v1760028077626!5m2!1szh-TW!2stw",
             tags: ["景點", "神社", "必拍"],
             type: "sightseeing"
         },
@@ -73,7 +73,7 @@ const itineraryData = {
                 "招牌：きんし丼（鰻魚蛋絲飯）",
                 "人氣很高，可能需要等待 30-60 分鐘"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.891234567!2d135.7690!3d35.0070!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5Lqs5qW144GL44Gt44KI!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.9493006530606!2d135.76698340161755!3d35.00797423828839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001089397ad4159%3A0x7f3486e9783a343b!2z5Lqs5qW144GL44Gt44KI!5e0!3m2!1szh-TW!2stw!4v1760028130138!5m2!1szh-TW!2stw",
             tags: ["美食", "鰻魚", "晚餐"],
             type: "dining"
         },
@@ -104,7 +104,7 @@ const itineraryData = {
                 "可選擇加購專業攝影服務",
                 "記得帶相機拍照！"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.1234567!2d135.7754!3d35.0031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z54my5YWJ56WH5ZyS5bqX!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.2299577896706!2d135.77386877575753!3d35.00094827281446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109c6e038c56b%3A0xeb02f06e50a4981!2z55KD5YWJ5ZKM5pyN5Ye656efIOelh-WckuW6lw!5e0!3m2!1szh-TW!2stw!4v1760028388009!5m2!1szh-TW!2stw",
             tags: ["體驗", "和服", "攝影"],
             type: "activity"
         },
@@ -123,7 +123,7 @@ const itineraryData = {
                 "🍮 清水坂 八ツ橋しゅ泡芙：必買甜點",
                 "🍗 喜楽庵岡本：超juicy炸雞"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.234567!2d135.7850!3d34.9950!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5riF5rC05a-6!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.480859080648!2d135.78208607575735!3d34.99466617281661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108d385dcfb07%3A0x62af658650c434ba!2z5riF5rC05a-6!5e0!3m2!1szh-TW!2stw!4v1760028489412!5m2!1szh-TW!2stw",
             tags: ["景點", "散策", "美食"],
             type: "sightseeing"
         },
@@ -138,7 +138,7 @@ const itineraryData = {
                 "可以買兔兔御守",
                 "記得摸摸黑兔子求好運"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.567890!2d135.7875!3d35.0155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5bKh5bSO56We56S-!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.562345678901!2d135.78521897649896!3d35.015498972955567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f56d3b3d3b3%3A0x3d3d3d3d3d3d3d3d!2z5bKh5bSO56We56S-!5e0!3m2!1szh-TW!2stw!4v1728473200000!5m2!1szh-TW!2stw",
             tags: ["景點", "神社", "可愛"],
             type: "sightseeing"
         },
@@ -160,7 +160,7 @@ const itineraryData = {
             title: "🏨 入住大阪飯店",
             location: "Hotel Royal Classic Osaka",
             address: "大阪府大阪市中央区難波4-3-3",
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.234567!2d135.5000!3d34.6650!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sHotel%20Royal%20Classic%20Osaka!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.234890123456!2d135.49802407648567!3d34.66502347241234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7d3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sHotel%20Royal%20Classic%20Osaka!5e0!3m2!1szh-TW!2stw!4v1728473300000!5m2!1szh-TW!2stw",
             type: "hotel"
         },
         {
@@ -196,7 +196,7 @@ const itineraryData = {
                 "🥩 和牛壽司現烤現吃",
                 "建議早點去人比較少"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.567890!2d135.5055!3d34.6600!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z6buS6ZaA5biC5aC0!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5678901234!2d135.50351897648456!3d34.66003457241567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e86d3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z6buS6ZaA5biC5aC0!5e0!3m2!1szh-TW!2stw!4v1728473400000!5m2!1szh-TW!2stw",
             tags: ["美食", "市場", "午餐"],
             type: "dining"
         },
@@ -211,7 +211,7 @@ const itineraryData = {
                 "咖啡專業、氛圍一流",
                 "適合拍照打卡"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.345678!2d135.5020!3d34.6620!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sOSA%20Coffee%20Minami!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3456789012!2d135.50001897648512!3d34.66201457241345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7e3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sOSA%20Coffee%20Minami!5e0!3m2!1szh-TW!2stw!4v1728473500000!5m2!1szh-TW!2stw",
             tags: ["咖啡", "網美店", "下午茶"],
             type: "cafe"
         },
@@ -228,7 +228,7 @@ const itineraryData = {
                 "📸 固力果跑跑人：必拍地標",
                 "💊 藥妝店比價：松本清、大國藥妝、唐吉軻德"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.123456!2d135.5010!3d34.6715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5b-D6Zm45qmL!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1234567890!2d135.49903907648578!3d34.67150457240123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e715d3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5b-D6Zm45qmL!5e0!3m2!1szh-TW!2stw!4v1728473600000!5m2!1szh-TW!2stw",
             tags: ["購物", "美食", "景點"],
             type: "shopping"
         },
@@ -244,7 +244,7 @@ const itineraryData = {
                 "門票：成人 ¥1,500",
                 "建議事先網路購票"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.890123!2d135.5140!3d34.6458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z6Zi_5YCN6YeO5YWL5peL5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.8901234567!2d135.51202907648345!3d34.64580457242890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0ab3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z6Zi_5YCN6YeO6Zec5paw5pyb5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1728473700000!5m2!1szh-TW!2stw",
             tags: ["夜景", "展望台", "景點"],
             type: "sightseeing"
         },
@@ -290,7 +290,7 @@ const itineraryData = {
                 "- 可考慮購買快速通關券",
                 "- 記得充好行動電源"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.567890!2d135.4320!3d34.6655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0b3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5pel5pys55Kw55CD5b2x5Z-O!5e0!3m2!1szh-TW!2stw!4v1234567890",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.5678901234!2d135.43002907648890!3d34.66550457245678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d56d3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z5pel5pys55Kw55CD5b2x5Z-O!5e0!3m2!1szh-TW!2stw!4v1728473800000!5m2!1szh-TW!2stw",
             tags: ["遊樂園", "環球影城", "萬聖節"],
             type: "activity"
         },
@@ -422,11 +422,21 @@ function renderItinerary() {
 }
 
 function createTimelineItem(item) {
+    const itemId = `item-${Math.random().toString(36).substr(2, 9)}`;
+    
     let html = `
         <div class="timeline-item">
             <div class="item-card">
-                <div class="item-time">${item.time}</div>
-                <h3 class="item-title">${item.title}</h3>
+                <div class="item-header" onclick="toggleItem('${itemId}')">
+                    <div class="item-header-left">
+                        <div class="item-time">${item.time}</div>
+                        <h3 class="item-title">${item.title}</h3>
+                    </div>
+                    <button class="toggle-btn" aria-label="展開/收合">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <div class="item-content" id="${itemId}">
     `;
     
     // 地點
@@ -491,11 +501,48 @@ function createTimelineItem(item) {
     }
     
     html += `
+                </div>
             </div>
         </div>
     `;
     
     return html;
+}
+
+// ========================================
+// 展開/收合行程項目
+// ========================================
+
+function toggleItem(itemId) {
+    const content = document.getElementById(itemId);
+    const card = content.closest('.item-card');
+    const toggleBtn = card.querySelector('.toggle-btn');
+    
+    if (content.classList.contains('expanded')) {
+        content.classList.remove('expanded');
+        toggleBtn.classList.remove('active');
+    } else {
+        content.classList.add('expanded');
+        toggleBtn.classList.add('active');
+    }
+}
+
+// 全部展開
+function expandAll() {
+    const allContents = document.querySelectorAll('.item-content');
+    const allButtons = document.querySelectorAll('.toggle-btn');
+    
+    allContents.forEach(content => content.classList.add('expanded'));
+    allButtons.forEach(btn => btn.classList.add('active'));
+}
+
+// 全部收合
+function collapseAll() {
+    const allContents = document.querySelectorAll('.item-content');
+    const allButtons = document.querySelectorAll('.toggle-btn');
+    
+    allContents.forEach(content => content.classList.remove('expanded'));
+    allButtons.forEach(btn => btn.classList.remove('active'));
 }
 
 // ========================================
