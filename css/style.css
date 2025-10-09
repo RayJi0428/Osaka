@@ -684,20 +684,22 @@ body {
     }
     
     .tabs {
-        gap: 5px;
+        gap: 4px;
+        padding: 5px 0;
     }
     
     .tab-btn {
-        min-width: 90px;
-        padding: 12px 10px;
+        min-width: 0;
+        flex: 1;
+        padding: 10px 6px;
     }
     
     .tab-date {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
     
     .tab-title {
-        font-size: 0.95rem;
+        font-size: 0.85rem;
     }
     
     .theme-toggle {
@@ -761,9 +763,22 @@ body {
         font-size: 1.8rem;
     }
     
+    .tabs {
+        gap: 3px;
+    }
+    
     .tab-btn {
-        min-width: 70px;
-        padding: 10px 8px;
+        min-width: 0;
+        flex: 1;
+        padding: 8px 4px;
+    }
+    
+    .tab-date {
+        font-size: 0.65rem;
+    }
+    
+    .tab-title {
+        font-size: 0.8rem;
     }
     
     .day-header {
