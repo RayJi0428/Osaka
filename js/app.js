@@ -8,11 +8,13 @@ const itineraryData = {
             time: "06:55",
             title: "🛫 小港機場出發",
             description: "台灣虎航 IT284",
+            image: "images/4c72b9540b1db13ef00d4795f066b94d.webp",
             type: "transport"
         },
         {
             time: "10:55",
             title: "✈️ 抵達關西機場",
+            image: "images/0125kansaiairportfbbb.jpg",
             location: "關西國際機場",
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3543969437087!2d135.23406707648098!3d34.43199938564929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000b91323cdfaf7%3A0xf171a79f8d908f88!2z6Zec6KW_5ZyL6Zqb5qmf5aC0!5e0!3m2!1szh-TW!2stw!4v1728472000000!5m2!1szh-TW!2stw",
             type: "arrival"
@@ -21,6 +23,7 @@ const itineraryData = {
             time: "12:44 - 14:00",
             title: "🚄 HARUKA 特急列車 No.24",
             description: "從關西機場到京都站",
+            image: "images/21_73.jpg",
             notes: [
                 "🎫 已購買 HARUKA 套票",
                 "🚄 列車編號：No.24",
@@ -28,20 +31,19 @@ const itineraryData = {
                 "🚃 車廂 9 號 - 座位 8C、8D",
                 "⏱️ 車程約 75 分鐘"
             ],
-            image: "images/21_73.jpg",
             type: "transport"
         },
         {
             time: "14:00 - 14:30",
             title: "🏨 入住飯店",
-            location: "Hotel Keihan Kyoto Ekiminami",
+            location: "Hotel Keihan Kyoto Ekiminami（京阪京都站南飯店）",
             address: "京都府京都市南区東九条上殿田町45",
             description: "放行李、稍作休息",
             website: "https://kyotoekiminami.hotelkeihan.co.jp/",
             image: "images/img_mainimg01-pc.jpg",
             notes: [
                 "距離 JR 京都站八条口步行 1 分鐘",
-                "可在入住前/退房後免費寄放行李",
+                "記得確認是否可寄送行李或免費寄放行李",
                 "提供免費高速網路"
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.9119136626596!2d135.75515147575683!3d34.98387107282036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109b1e416fb6b%3A0x9c0ef85f412b327!2z5Lqs6Ziq5Lqs6YO96LuK56uZ5Y2X6aOv5bqX!5e0!3m2!1szh-TW!2stw!4v1760028010484!5m2!1szh-TW!2stw",
@@ -70,10 +72,9 @@ const itineraryData = {
             location: "京極かねよ（百年鰻魚飯老店）",
             address: "京都府京都市中京区六角通新京極東入松ヶ枝町456",
             description: "百年鰻魚飯老店，必吃招牌鰻魚蛋包飯",
+            image: "images/images.jpg",
             notes: [
                 "招牌：きんし丼（鰻魚蛋絲飯）",
-                "人氣很高，可能需要等待 30-60 分鐘",
-                "",
                 "🚃 從伏見稻荷的交通方式：",
                 "1. 步行 5 分鐘到京阪電車伏見稻荷站",
                 "2. 搭京阪本線（往出町柳方向）約 10 分鐘",
@@ -90,7 +91,7 @@ const itineraryData = {
             type: "rest"
         }
     ],
-    
+
     day2: [
         {
             time: "08:00",
@@ -104,6 +105,7 @@ const itineraryData = {
             location: "璃光和服 祇園店",
             address: "京都府京都市東山区祇園町南側570-119",
             description: "和服體驗＋專業攝影（預留 3.5 小時）",
+            image: "images/1_020240720133728_cFTVU.jpg",
             notes: [
                 "提早 10 分鐘到達",
                 "包含髮型設計與配件",
@@ -119,6 +121,7 @@ const itineraryData = {
             location: "清水寺・二年坂・三年坂區域",
             address: "京都府京都市東山区清水1丁目294",
             description: "穿著和服在古色古香的街道漫步",
+            image: "images/kiyomizudera-midokoro_thumb.webp",
             notes: [
                 "📍 清水寺：京都必訪景點，可眺望市區",
                 "🛍️ 二年坂・三年坂：傳統商店街",
@@ -137,12 +140,13 @@ const itineraryData = {
             location: "岡崎神社",
             address: "京都府京都市左京区岡崎東天王町51",
             description: "超可愛的兔子神社，求姻緣、安產",
+            image: "images/20210716101225300.jpg",
             notes: [
                 "滿滿的兔子雕像超療癒",
                 "可以買兔兔御守",
                 "記得摸摸黑兔子求好運"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.562345678901!2d135.78521897649896!3d35.015498972955567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f56d3b3d3b3%3A0x3d3d3d3d3d3d3d3d!2z5bKh5bSO56We56S-!5e0!3m2!1szh-TW!2stw!4v1728473200000!5m2!1szh-TW!2stw",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.573844954709!2d135.78621847620883!3d35.01737146615512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108e21740e2a9%3A0xc21db7b9de148653!2z5p2x5aSp546LIOWyoeW0juelnuekvg!5e0!3m2!1szh-TW!2stw!4v1760064057296!5m2!1szh-TW!2stw",
             type: "sightseeing"
         },
         {
@@ -178,7 +182,7 @@ const itineraryData = {
             type: "dining"
         }
     ],
-    
+
     day3: [
         {
             time: "11:00",
@@ -221,6 +225,7 @@ const itineraryData = {
             location: "心齋橋・道頓堀區域",
             address: "大阪府大阪市中央区心斎橋筋",
             description: "瘋狂購物時間！藥妝、服飾、美食一次滿足",
+            image: "images/Dotonbori_(53067359216).jpg",
             notes: [
                 "🛍️ 心齋橋筋商店街：藥妝、服飾、雜貨",
                 "🏬 OPA 百貨：日系品牌",
@@ -253,7 +258,7 @@ const itineraryData = {
             type: "rest"
         }
     ],
-    
+
     day4: [
         {
             time: "08:00",
@@ -298,7 +303,7 @@ const itineraryData = {
             type: "rest"
         }
     ],
-    
+
     day5: [
         {
             time: "07:45 - 08:00",
@@ -353,17 +358,17 @@ const itineraryData = {
 function initTheme() {
     const themeToggle = document.getElementById('themeToggle');
     const themeIcon = themeToggle.querySelector('.theme-icon');
-    
+
     // 讀取儲存的主題設定
     const savedTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme, themeIcon);
-    
+
     // 主題切換事件
     themeToggle.addEventListener('click', () => {
         const currentTheme = document.documentElement.getAttribute('data-theme');
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        
+
         document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
         updateThemeIcon(newTheme, themeIcon);
@@ -381,19 +386,19 @@ function updateThemeIcon(theme, iconElement) {
 function initTabs() {
     const tabButtons = document.querySelectorAll('.tab-btn');
     const dayContents = document.querySelectorAll('.day-content');
-    
+
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
             const targetDay = button.getAttribute('data-day');
-            
+
             // 移除所有 active 狀態
             tabButtons.forEach(btn => btn.classList.remove('active'));
             dayContents.forEach(content => content.classList.remove('active'));
-            
+
             // 添加新的 active 狀態
             button.classList.add('active');
             document.getElementById(`day-${targetDay}`).classList.add('active');
-            
+
             // 捲動到頁面頂部
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
@@ -410,7 +415,7 @@ function renderItinerary() {
         const dayNumber = index + 1;
         const container = document.getElementById(`day-${dayNumber}-items`);
         const items = itineraryData[day];
-        
+
         items.forEach(item => {
             const itemHTML = createTimelineItem(item);
             container.innerHTML += itemHTML;
@@ -420,7 +425,7 @@ function renderItinerary() {
 
 function createTimelineItem(item) {
     const itemId = `item-${Math.random().toString(36).substr(2, 9)}`;
-    
+
     let html = `
         <div class="timeline-item">
             <div class="item-card">
@@ -435,27 +440,27 @@ function createTimelineItem(item) {
                 </div>
                 <div class="item-content" id="${itemId}">
     `;
-    
+
     // 地點
     if (item.location) {
         html += `<p class="item-description"><strong>📍 ${item.location}</strong></p>`;
     }
-    
+
     // 描述
     if (item.description) {
         html += `<p class="item-description">${item.description}</p>`;
     }
-    
+
     // 地址
     if (item.address) {
         html += `<p class="item-address">🗺️ ${item.address}</p>`;
     }
-    
+
     // 網址
     if (item.website) {
         html += `<p class="item-website">🔗 <a href="${item.website}" target="_blank" rel="noopener noreferrer">官方網站</a></p>`;
     }
-    
+
     // 圖片
     if (item.image) {
         html += `
@@ -464,7 +469,7 @@ function createTimelineItem(item) {
             </div>
         `;
     }
-    
+
     // 備註
     if (item.notes && item.notes.length > 0) {
         html += `<div class="item-notes"><ul>`;
@@ -473,7 +478,7 @@ function createTimelineItem(item) {
         });
         html += `</ul></div>`;
     }
-    
+
     // Google Map
     if (item.googleMapEmbed) {
         html += `
@@ -487,13 +492,13 @@ function createTimelineItem(item) {
             </div>
         `;
     }
-    
+
     html += `
                 </div>
             </div>
         </div>
     `;
-    
+
     return html;
 }
 
@@ -505,7 +510,7 @@ function toggleItem(itemId) {
     const content = document.getElementById(itemId);
     const card = content.closest('.item-card');
     const toggleBtn = card.querySelector('.toggle-btn');
-    
+
     if (content.classList.contains('expanded')) {
         content.classList.remove('expanded');
         toggleBtn.classList.remove('active');
@@ -519,7 +524,7 @@ function toggleItem(itemId) {
 function expandAll() {
     const allContents = document.querySelectorAll('.item-content');
     const allButtons = document.querySelectorAll('.toggle-btn');
-    
+
     allContents.forEach(content => content.classList.add('expanded'));
     allButtons.forEach(btn => btn.classList.add('active'));
 }
@@ -528,7 +533,7 @@ function expandAll() {
 function collapseAll() {
     const allContents = document.querySelectorAll('.item-content');
     const allButtons = document.querySelectorAll('.toggle-btn');
-    
+
     allContents.forEach(content => content.classList.remove('expanded'));
     allButtons.forEach(btn => btn.classList.remove('active'));
 }
@@ -541,7 +546,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     initTabs();
     renderItinerary();
-    
+
     console.log('🇯🇵 京都大阪旅遊網頁已載入完成！祝旅途愉快！');
 });
 
