@@ -314,14 +314,52 @@ body {
     cursor: pointer;
     user-select: none;
     transition: background 0.2s ease;
+    position: relative;
 }
 
 .item-header:hover {
     background: var(--bg-primary);
 }
 
+.item-header.has-bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80px;
+}
+
+.item-header.has-bg-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.75);
+    z-index: 0;
+}
+
+[data-theme="dark"] .item-header.has-bg-image::before {
+    background: rgba(15, 52, 96, 0.75);
+}
+
+.item-header.has-bg-image:hover::before {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+[data-theme="dark"] .item-header.has-bg-image:hover::before {
+    background: rgba(15, 52, 96, 0.75);
+}
+
 .item-header-left {
     flex: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.item-header .toggle-btn {
+    position: relative;
+    z-index: 1;
 }
 
 .item-time {
@@ -430,21 +468,6 @@ body {
     text-decoration: underline;
 }
 
-/* 圖片 */
-.item-image {
-    margin: 15px 0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: var(--shadow);
-}
-
-.item-image img {
-    width: 100%;
-    max-height: 400px;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
 
 /* Google Map */
 .item-map {

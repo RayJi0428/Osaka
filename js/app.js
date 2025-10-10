@@ -21,9 +21,9 @@ const itineraryData = {
         },
         {
             time: "12:44 - 14:00",
-            title: "🚄 HARUKA 特急列車 No.24",
+            title: "🚄 HARUKA 特急列車",
             description: "從關西機場到京都站",
-            image: "images/21_73.jpg",
+            image: "images/h23048953_m-thumb.webp",
             notes: [
                 "🎫 已購買 HARUKA 套票",
                 "🚄 列車編號：No.24",
@@ -445,11 +445,12 @@ function renderItinerary() {
 
 function createTimelineItem(item) {
     const itemId = `item-${Math.random().toString(36).substr(2, 9)}`;
-
+    const headerBgStyle = item.image ? `style="background-image: url('${item.image}');"` : '';
+    
     let html = `
         <div class="timeline-item">
             <div class="item-card">
-                <div class="item-header" onclick="toggleItem('${itemId}')">
+                <div class="item-header ${item.image ? 'has-bg-image' : ''}" ${headerBgStyle} onclick="toggleItem('${itemId}')">
                     <div class="item-header-left">
                         <div class="item-time">${item.time}</div>
                         <h3 class="item-title">${item.title}</h3>
@@ -479,15 +480,6 @@ function createTimelineItem(item) {
     // 網址
     if (item.website) {
         html += `<p class="item-website">🔗 <a href="${item.website}" target="_blank" rel="noopener noreferrer">官方網站</a></p>`;
-    }
-
-    // 圖片
-    if (item.image) {
-        html += `
-            <div class="item-image">
-                <img src="${item.image}" alt="${item.title}" loading="lazy">
-            </div>
-        `;
     }
 
     // 備註
