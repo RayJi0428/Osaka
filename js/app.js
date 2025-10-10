@@ -14,7 +14,7 @@ const itineraryData = {
         {
             time: "10:55",
             title: "✈️ 抵達關西機場",
-            image: "images/0125kansaiairportfbbb.jpg",
+            image: "images/20241224_111605_2f730d32_w1920.webp",
             location: "關西國際機場",
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3543969437087!2d135.23406707648098!3d34.43199938564929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000b91323cdfaf7%3A0xf171a79f8d908f88!2z6Zec6KW_5ZyL6Zqb5qmf5aC0!5e0!3m2!1szh-TW!2stw!4v1728472000000!5m2!1szh-TW!2stw",
             type: "arrival"
@@ -294,7 +294,7 @@ const itineraryData = {
             location: "日本環球影城",
             address: "大阪府大阪市此花区桜島2丁目1-33",
             description: "萬聖節主題日！整天沉浸在魔法世界",
-            image: "images/usjkingkong10.jpg",
+            image: "images/super-nintendo-world.jpg",
             notes: [
                 "🧙‍♂️ 哈利波特魔法世界：必玩禁忌之旅、逛活米村",
                 "🍄 超級任天堂世界：瑪利歐賽車、耀西冒險",
