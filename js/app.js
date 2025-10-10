@@ -37,14 +37,18 @@ const itineraryData = {
             time: "14:00 - 14:30",
             title: "🏨 入住飯店",
             location: "Hotel Keihan Kyoto Ekiminami（京阪京都站南飯店）",
-            address: "京都府京都市南区東九条上殿田町45",
+            address: "〒601-8001 京都府京都市南區東九條室町55番地",
             description: "放行李、稍作休息",
             website: "https://kyotoekiminami.hotelkeihan.co.jp/",
             image: "images/img_mainimg01-pc.jpg",
             notes: [
-                "距離 JR 京都站八条口步行 1 分鐘",
-                "記得確認是否可寄送行李或免費寄放行李",
-                "提供免費高速網路"
+                "🚶 距離 JR 京都站八条口步行 1 分鐘",
+                "🧳 可在入住前/退房後免費寄放行李",
+                "📶 提供免費高速網路",
+                "",
+                "📞 聯絡資訊（行李寄送/諮詢）：",
+                "  電話：075-692-0321",
+                "  Email：info-kyotominami@hotelkeihan.co.jp",
             ],
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.9119136626596!2d135.75515147575683!3d34.98387107282036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109b1e416fb6b%3A0x9c0ef85f412b327!2z5Lqs6Ziq5Lqs6YO96LuK56uZ5Y2X6aOv5bqX!5e0!3m2!1szh-TW!2stw!4v1760028010484!5m2!1szh-TW!2stw",
             type: "hotel"
@@ -165,9 +169,20 @@ const itineraryData = {
         {
             time: "18:00",
             title: "🏨 入住大阪飯店",
-            location: "Hotel Royal Classic Osaka",
-            address: "大阪府大阪市中央区難波4-3-3",
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.234890123456!2d135.49802407648567!3d34.66502347241234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7d3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sHotel%20Royal%20Classic%20Osaka!5e0!3m2!1szh-TW!2stw!4v1728473300000!5m2!1szh-TW!2stw",
+            location: "Hotel Royal Classic Osaka（ホテル ロイヤル クラシック 大阪）",
+            address: "〒542-0076 大阪府大阪市中央区難波4-3-3",
+            description: "放好行李，準備探索大阪！",
+            image: "images/014-scaled-1.jpg",
+            website: "https://hotel-royalclassic.jp/",
+            notes: [
+                "🚇 距離難波站步行約 5 分鐘",
+                "🧳 可在入住前寄放行李",
+                "",
+                "📞 聯絡資訊（行李寄送/諮詢）：",
+                "  電話：06-6633-0030",
+                "  傳真：06-6633-0036",
+            ],
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5526325404053!2d135.50017309999998!3d34.6659994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e75b2a21f615%3A0x61a47fd8e1f83b35!2z5aSn6Ziq55qH5a6257aT5YW46YWS5bqX!5e0!3m2!1szh-TW!2stw!4v1760066611232!5m2!1szh-TW!2stw",
             type: "hotel"
         },
         {
@@ -196,13 +211,14 @@ const itineraryData = {
             location: "黑門市場",
             address: "大阪府大阪市中央区日本橋2丁目4-1",
             description: "大阪的廚房！新鮮海產、和牛、水果一次滿足",
+            image: "images/unnamed.jpg",
             notes: [
                 "🍣 推薦：生魚片丼飯（現場製作超新鮮）",
                 "🍓 必買：草莓大福、哈密瓜",
                 "🥩 和牛壽司現烤現吃",
                 "建議早點去人比較少"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5678901234!2d135.50351897648456!3d34.66003457241567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e86d3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z6buS6ZaA5biC5aC0!5e0!3m2!1szh-TW!2stw!4v1728473400000!5m2!1szh-TW!2stw",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.578065262334!2d135.50366567619727!3d34.66535728510769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e741e541225d%3A0xac1d2c78be23c141!2z6buS6ZaA5biC5aC0!5e0!3m2!1szh-TW!2stw!4v1760066688144!5m2!1szh-TW!2stw",
             type: "dining"
         },
         {
@@ -211,12 +227,13 @@ const itineraryData = {
             location: "OSA Coffee Minami",
             address: "大阪府大阪市中央区難波千日前7-9",
             description: "超美工業風咖啡店，IG打卡熱點",
+            image: "images/DSC03497.jpg",
             notes: [
                 "黑白極簡工業風裝潢",
                 "咖啡專業、氛圍一流",
                 "適合拍照打卡"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3456789012!2d135.50001897648512!3d34.66201457241345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7e3b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sOSA%20Coffee%20Minami!5e0!3m2!1szh-TW!2stw!4v1728473500000!5m2!1szh-TW!2stw",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.226791315223!2d135.49249067619766!3d34.67422518463235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7422ec4ba61%3A0x86548c780084eb0d!2sOSA%20Coffee%20Minami!5e0!3m2!1szh-TW!2stw!4v1760066875504!5m2!1szh-TW!2stw",
             type: "cafe"
         },
         {
@@ -233,7 +250,7 @@ const itineraryData = {
                 "📸 固力果跑跑人：必拍地標",
                 "💊 藥妝店比價：松本清、大國藥妝、唐吉軻德"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1234567890!2d135.49903907648578!3d34.67150457240123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e715d3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2z5b-D6Zm45qmL!5e0!3m2!1szh-TW!2stw!4v1728473600000!5m2!1szh-TW!2stw",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3061895766527!2d135.49942378704964!3d34.67222095163377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e713fc37b373%3A0x625cc4399599c323!2z5b-D6b2L5qmL562L5ZWG5bqX6KGX!5e0!3m2!1szh-TW!2stw!4v1760066985586!5m2!1szh-TW!2stw",
             type: "shopping"
         },
         {
@@ -242,13 +259,14 @@ const itineraryData = {
             location: "阿倍野 HARUKAS 300 展望台",
             address: "大阪府大阪市阿倍野区阿倍野筋1-1-43",
             description: "日本最高大樓，60樓觀景台看大阪夜景",
+            image: "images/Harukas300-new.jpg",
             notes: [
                 "高度 300 公尺，360度全景",
                 "夜景超美，建議傍晚前往看日落",
                 "門票：成人 ¥1,500",
                 "建議事先網路購票"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.8901234567!2d135.51202907648345!3d34.64580457242890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0ab3b3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z6Zi_5YCN6YeO6Zec5paw5pyb5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1728473700000!5m2!1szh-TW!2stw",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.332449293169!2d135.5107341757422!3d34.64630617293919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000ddf0273be0dd%3A0xf2471a0513ff5e8a!2zSGFydWthczMwMOWxleacm-WPsA!5e0!3m2!1szh-TW!2stw!4v1760067088274!5m2!1szh-TW!2stw",
             type: "sightseeing"
         },
         {
@@ -276,6 +294,7 @@ const itineraryData = {
             location: "日本環球影城",
             address: "大阪府大阪市此花区桜島2丁目1-33",
             description: "萬聖節主題日！整天沉浸在魔法世界",
+            image: "images/usjkingkong10.jpg",
             notes: [
                 "🧙‍♂️ 哈利波特魔法世界：必玩禁忌之旅、逛活米村",
                 "🍄 超級任天堂世界：瑪利歐賽車、耀西冒險",
@@ -293,7 +312,7 @@ const itineraryData = {
                 "- 可考慮購買快速通關券",
                 "- 記得充好行動電源"
             ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.5678901234!2d135.43002907648890!3d34.66550457245678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d56d3b3b3b%3A0x3b3b3b3b3b3b3b3b!2z5pel5pys55Kw55CD5b2x5Z-O!5e0!3m2!1szh-TW!2stw!4v1728473800000!5m2!1szh-TW!2stw",
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5654111220592!2d135.42974357574303!3d34.6656767729322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d083d5e25d%3A0x3605fe25303252aa!2z5pel5pys55Kw55CD5b2x5Z-O!5e0!3m2!1szh-TW!2stw!4v1760067285839!5m2!1szh-TW!2stw",
             type: "activity"
         },
         {
@@ -330,6 +349,7 @@ const itineraryData = {
             title: "🛫 關西機場起飛",
             description: "長榮航空 BR181",
             location: "關西國際機場 第一航廈",
+            image: "images/下載.jpg",
             notes: [
                 "記得最後採購：白色戀人、薯條三兄弟",
                 "退稅櫃檯在出境前",
