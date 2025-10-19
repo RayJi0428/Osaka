@@ -336,22 +336,10 @@ const itineraryData = {
             description: "萬聖節主題日！整天沉浸在魔法世界",
             image: "images/super-nintendo-world.jpg",
             notes: [
-                "VIP 09:00入園",
-                "🧙‍♂️ 哈利波特魔法世界：必玩禁忌之旅、逛活米村",
-                "🍄 超級任天堂世界：瑪利歐賽車、耀西冒險",
-                "🎢 刺激遊樂設施：飛天翼龍、蜘蛛人、好萊塢美夢",
-                "🎃 萬聖節限定活動：",
-                "  - 驚嚇小巷（膽小勿入）",
-                "  - 鬼裝民眾到處都是",
-                "  - 萬聖節限定裝飾與表演",
-                "  - 特殊角色見面會",
-                "🍴 午餐建議：三根掃帚餐廳（哈利波特區）",
-                "🎁 必買：魔杖、爆米花桶、限定周邊",
-                "",
-                "⚠️ 小提醒：",
-                "- 下載 USJ 官方 APP 查看等候時間",
-                "- 可考慮購買快速通關券",
-                "- 記得充好行動電源"
+                "08:30入園，09:00開始VIP行程",
+                "🍄 超級任天堂世界：瑪利歐賽車、耀西冒險、奇諾比奧餐廳",
+                "🎢 快速通關：飛天翼龍、好萊塢美夢、禁忌之旅",
+                "🍴 午餐建議：奇諾比奧餐廳",
             ],
             pdfFile: "images/usj-pdf-studio-guide-tw.pdf",
             pdfCaption: "🗺️ USJ 環球影城園區導覽地圖",
@@ -460,10 +448,10 @@ function initTabs() {
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
             const targetDay = button.getAttribute('data-day');
-            
+
             // 切換到目標頁簽
             switchToTab(targetDay, tabButtons, dayContents);
-            
+
             // 儲存當前選擇的頁簽
             localStorage.setItem('currentTab', targetDay);
 
@@ -482,7 +470,7 @@ function switchToTab(targetDay, tabButtons, dayContents) {
     // 添加新的 active 狀態
     const targetButton = document.querySelector(`.tab-btn[data-day="${targetDay}"]`);
     const targetContent = document.getElementById(`day-${targetDay}`);
-    
+
     if (targetButton && targetContent) {
         targetButton.classList.add('active');
         targetContent.classList.add('active');
