@@ -450,22 +450,43 @@ function initTabs() {
     const tabButtons = document.querySelectorAll('.tab-btn');
     const dayContents = document.querySelectorAll('.day-content');
 
+    // 讀取上次選擇的頁簽，如果沒有則預設為 day 1
+    const savedTab = localStorage.getItem('currentTab') || '1';
+
+    // 恢復上次選擇的頁簽
+    switchToTab(savedTab, tabButtons, dayContents);
+
+    // 為每個按鈕添加點擊事件
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
             const targetDay = button.getAttribute('data-day');
-
-            // 移除所有 active 狀態
-            tabButtons.forEach(btn => btn.classList.remove('active'));
-            dayContents.forEach(content => content.classList.remove('active'));
-
-            // 添加新的 active 狀態
-            button.classList.add('active');
-            document.getElementById(`day-${targetDay}`).classList.add('active');
+            
+            // 切換到目標頁簽
+            switchToTab(targetDay, tabButtons, dayContents);
+            
+            // 儲存當前選擇的頁簽
+            localStorage.setItem('currentTab', targetDay);
 
             // 捲動到頁面頂部
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     });
+}
+
+// 切換頁簽的輔助函數
+function switchToTab(targetDay, tabButtons, dayContents) {
+    // 移除所有 active 狀態
+    tabButtons.forEach(btn => btn.classList.remove('active'));
+    dayContents.forEach(content => content.classList.remove('active'));
+
+    // 添加新的 active 狀態
+    const targetButton = document.querySelector(`.tab-btn[data-day="${targetDay}"]`);
+    const targetContent = document.getElementById(`day-${targetDay}`);
+    
+    if (targetButton && targetContent) {
+        targetButton.classList.add('active');
+        targetContent.classList.add('active');
+    }
 }
 
 // ========================================
