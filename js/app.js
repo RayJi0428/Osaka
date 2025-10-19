@@ -139,21 +139,6 @@ const itineraryData = {
             type: "sightseeing"
         },
         {
-            time: "15:00 - 15:40",
-            title: "🐰 岡崎神社（兔兔神社）",
-            location: "岡崎神社",
-            address: "京都府京都市左京区岡崎東天王町51",
-            description: "超可愛的兔子神社，求姻緣、安產",
-            image: "images/20210716101225300.jpg",
-            notes: [
-                "滿滿的兔子雕像超療癒",
-                "可以買兔兔御守",
-                "記得摸摸黑兔子求好運"
-            ],
-            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.573844954709!2d135.78621847620883!3d35.01737146615512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108e21740e2a9%3A0xc21db7b9de148653!2z5p2x5aSp546LIOWyoeW0juelnuekvg!5e0!3m2!1szh-TW!2stw!4v1760064057296!5m2!1szh-TW!2stw",
-            type: "sightseeing"
-        },
-        {
             time: "16:00",
             title: "🧳 回飯店取行李",
             description: "回京都的飯店拿行李，準備前往大阪",
@@ -187,13 +172,23 @@ const itineraryData = {
         },
         {
             time: "19:00",
-            title: "🍶 大阪居酒屋晚餐",
-            description: "自由探索難波・道頓堀區域的居酒屋",
+            title: "🥞 晚餐 - 味乃家大阪燒",
+            location: "味乃家（みのや）",
+            address: "大阪府大阪市中央区難波3丁目2-28",
+            description: "道地大阪燒老店，濃郁醬汁與鬆軟口感令人難忘",
+            image: "images/IMG_3142.webp",
             notes: [
-                "推薦區域：道頓堀、心齋橋",
-                "必吃：串炸、章魚燒、大阪燒",
-                "可以順便欣賞固力果跑跑人招牌夜景"
+                "🥞 招牌推薦：",
+                "  - 豚玉（豬肉大阪燒）",
+                "  - 海鮮大阪燒（鮮蝦、花枝、干貝）",
+                "  - 廣島燒（分層製作更豐富）",
+                "  - 炒麵（焼きそば）也很推薦！",
+                "👨‍🍳 現點現做，可以看到師傅在鐵板上製作過程",
+                "🚇 交通：從飯店步行約 5-8 分鐘即可到達",
+                "💡 小提醒：店內空間不大，建議避開用餐尖峰時段",
+                "🌃 吃完可順便前往道頓堀欣賞固力果跑跑人夜景"
             ],
+            googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.470642301129!2d135.49840107619752!3d34.66806938496231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e71370f515bd%3A0xbc2902b4000717ce!2z5ZGz5LmD5a625b6h5aW954eS!5e0!3m2!1szh-TW!2stw!4v1760892223884!5m2!1szh-TW!2stw",
             type: "dining"
         }
     ],
@@ -244,12 +239,53 @@ const itineraryData = {
             description: "瘋狂購物時間！藥妝、服飾、美食一次滿足",
             image: "images/Dotonbori_(53067359216).jpg",
             notes: [
-                "🛍️ 心齋橋筋商店街：藥妝、服飾、雜貨",
-                "🏬 OPA 百貨：日系品牌",
-                "🍜 道頓堀：一蘭拉麵、大阪王將、章魚燒",
-                "📸 固力果跑跑人：必拍地標",
-                "💊 藥妝店比價：松本清、大國藥妝、唐吉軻德"
+                "🍜 必吃美食：",
+                "  🥟 一蘭拉麵 - 道頓堀本店（24小時營業）",
+                "  🐙 元祖章魚燒 - 會津屋（章魚燒發源地）",
+                "  🐙 本家章魚燒 - 道頓堀くくる",
+                "  🥟 大阪王將 - 煎餃必吃",
+                "  🍜 金龍拉麵 - 平價美味",
+                "  🥩 MooKEN - 炸牛排三明治（超人氣排隊美食）",
+                "  🍰 りくろーおじさん（Rikuro）- 現烤起司蛋糕",
+                "  🍡 夫婦善哉 - 紅豆湯圓甜品老店",
+                "",
+                "💊 必買藥妝保養品：",
+                "  ✨ 松本清、大國藥妝、唐吉軻德（比價後再買）",
+                "  💧 SKII 神仙水、雪肌精化妝水",
+                "  👁️ 參天眼藥水、小花眼藥水",
+                "  🧴 KOSE 面膜、肌美精面膜",
+                "  💄 CANMAKE、EXCEL 開架彩妝",
+                "  🦷 獅王牙膏、花王蒸氣眼罩",
+                "  💊 EVE止痛藥、太田胃散",
+                "",
+                "🛍️ 必買伴手禮零食：",
+                "  🍫 ROYCE 生巧克力（冷藏保存）",
+                "  🥔 薯條三兄弟、Calbee 洋芋片",
+                "  🍪 白色戀人餅乾、東京芭娜娜",
+                "  🍬 不二家 PEKO 糖果",
+                "  🍵 抹茶 KitKat、宇治抹茶粉",
+                "  🍘 白い恋人（白巧克力夾心餅）",
+                "",
+                "🏬 購物地標：",
+                "  🛍️ 心齋橋筋商店街（藥妝、服飾、雜貨）",
+                "  🏢 心齋橋 OPA 百貨（日系潮牌）",
+                "  🎡 唐吉軻德道頓堀店（驚安殿堂 24小時）",
+                "  👔 UNIQLO、GU 旗艦店",
+                "  📸 固力果跑跑人招牌（必拍地標）",
+                "",
+                "💡 購物小提醒：",
+                "  ⏰ 藥妝店營業至晚上 10-11 點",
+                "  💳 記得帶護照辦理退稅",
+                "  🎒 建議帶空行李箱或購物袋",
+                "",
+                "🎟️ 優惠券懶人包：",
+                "  🔗 <a href='https://rabbitfunaround.com/blog/post/japan-coupon' target='_blank' style='color: #e74c3c; font-weight: bold; text-decoration: underline;'>日本購物優惠券總整理（唐吉軻德、大國藥妝、BIC CAMERA 等）</a>",
+                "  💰 免稅 10% + 折扣最高 7%",
+                "  📱 手機出示優惠券即可使用",
+                "  ✨ 包含唐吉軻德、松本清、Sundrug、大國藥妝、BIC CAMERA、Edion 等店家"
             ],
+            additionalImage: "images/20250305215501_0_b1810d.jpg",
+            additionalImageCaption: "🗺️ 心齋橋・道頓堀逛街地圖",
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3061895766527!2d135.49942378704964!3d34.67222095163377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e713fc37b373%3A0x625cc4399599c323!2z5b-D6b2L5qmL562L5ZWG5bqX6KGX!5e0!3m2!1szh-TW!2stw!4v1760066985586!5m2!1szh-TW!2stw",
             type: "shopping"
         },
@@ -296,6 +332,7 @@ const itineraryData = {
             description: "萬聖節主題日！整天沉浸在魔法世界",
             image: "images/super-nintendo-world.jpg",
             notes: [
+                "VIP 09:00入園",
                 "🧙‍♂️ 哈利波特魔法世界：必玩禁忌之旅、逛活米村",
                 "🍄 超級任天堂世界：瑪利歐賽車、耀西冒險",
                 "🎢 刺激遊樂設施：飛天翼龍、蜘蛛人、好萊塢美夢",
@@ -312,6 +349,8 @@ const itineraryData = {
                 "- 可考慮購買快速通關券",
                 "- 記得充好行動電源"
             ],
+            pdfFile: "images/usj-pdf-studio-guide-tw.pdf",
+            pdfCaption: "🗺️ USJ 環球影城園區導覽地圖",
             googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5654111220592!2d135.42974357574303!3d34.6656767729322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d083d5e25d%3A0x3605fe25303252aa!2z5pel5pys55Kw55CD5b2x5Z-O!5e0!3m2!1szh-TW!2stw!4v1760067285839!5m2!1szh-TW!2stw",
             type: "activity"
         },
@@ -446,7 +485,7 @@ function renderItinerary() {
 function createTimelineItem(item) {
     const itemId = `item-${Math.random().toString(36).substr(2, 9)}`;
     const headerBgStyle = item.image ? `style="background-image: url('${item.image}');"` : '';
-    
+
     let html = `
         <div class="timeline-item">
             <div class="item-card">
@@ -489,6 +528,48 @@ function createTimelineItem(item) {
             html += `<li>${note}</li>`;
         });
         html += `</ul></div>`;
+    }
+
+    // 額外圖片（如地圖等）
+    if (item.additionalImage) {
+        html += `
+            <div class="item-additional-image" style="margin: 20px 0; padding: 15px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 12px; box-shadow: 0 4px 15px rgba(240, 147, 251, 0.4);">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <span style="font-size: 32px;">🗺️</span>
+                    <div style="flex: 1;">
+                        <p style="margin: 0 0 5px 0; font-weight: bold; color: white; font-size: 16px;">${item.additionalImageCaption || '參考地圖'}</p>
+                        <p style="margin: 0; font-size: 13px; color: rgba(255,255,255,0.9);">點擊下方按鈕開啟完整地圖</p>
+                    </div>
+                </div>
+                <a href="${item.additionalImage}" target="_blank" rel="noopener noreferrer" 
+                   style="display: block; margin-top: 12px; padding: 12px 20px; background: white; color: #f5576c; text-align: center; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"
+                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2)';"
+                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.1)';">
+                    🗺️ 開啟逛街地圖
+                </a>
+            </div>
+        `;
+    }
+
+    // PDF 文件（如地圖導覽等）
+    if (item.pdfFile) {
+        html += `
+            <div class="item-pdf" style="margin: 20px 0; padding: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <span style="font-size: 32px;">📄</span>
+                    <div style="flex: 1;">
+                        <p style="margin: 0 0 5px 0; font-weight: bold; color: white; font-size: 16px;">${item.pdfCaption || 'PDF 導覽文件'}</p>
+                        <p style="margin: 0; font-size: 13px; color: rgba(255,255,255,0.9);">點擊下方按鈕開啟或下載 PDF 文件</p>
+                    </div>
+                </div>
+                <a href="${item.pdfFile}" target="_blank" rel="noopener noreferrer" 
+                   style="display: block; margin-top: 12px; padding: 12px 20px; background: white; color: #667eea; text-align: center; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"
+                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2)';"
+                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.1)';">
+                    📥 開啟 PDF 導覽地圖
+                </a>
+            </div>
+        `;
     }
 
     // Google Map
